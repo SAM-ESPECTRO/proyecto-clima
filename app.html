@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styleApp.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>App</title>
+</head>
+<body class="bg-dark">
+
+  <!-- cabecera -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body fixed-top text text-center" data-bs-theme="dark">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ecovida</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item bg-success rounded">
+                  <button class="bg-success px-3 mx-3 py-2 rounded border-0" id="cerrarSesion">Cerrar Sesion</button>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!-- Barra de busqueda -->
+<div class="barra-de-busqueda">
+  <input type="text" placeholder="Buscar país">
+  <i class="fas fa-search"></i>
+</div>
+<!-- Tarjetas del Clima -->
+<div id="tarjeta-resultado" class="tarjeta-resultado">
+  <h2 id="nombre-país"></h2>
+  <div class="información-meteorológica">
+    <p><i class="fas fa-circle"></i> <span id="descripción-meteorológica"></span></p>
+    <p><i class="fas fa-thermometer-half"></i> <span id="temperatura"></span></p>
+    <p><i class="fas fa-thermometer-quarter"></i> <span id="feels-like"></span></p>
+    <p><i class="fas fa-wind"></i> <span id="velocidad-del-viento"></span></p>
+    <p><i class="fas fa-globe-americas"></i> <span id="latitude"></span></p>
+    <p><i class="fas fa-globe-americas"></i> <span id="longitude"></span></p>
+    <div class="descripcion">
+      <i class="fas fa-info-circle"></i>
+      <p>Descripción del clima</p>
+    </div>
+  </div>
+</div>
+<script src="assets/js/app.js"></script>
+<script src="/assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" class="bootstrapJs"></script>
+</body>
+</html>
+</body>
+</html>

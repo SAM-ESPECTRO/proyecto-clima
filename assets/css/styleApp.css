@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    background: url(ass);
+    background-size: cover;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .barra-de-busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(249, 249, 249, 0.935); ;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, .3);
+    transition: ease .5s;
+    margin-bottom: 40px;
+  }
+  
+  .barra-de-busqueda:hover {
+    width: 500px;
+  }
+  
+  input {
+    width: 100%;
+    height: 100%;
+    color: #1693a7;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  i {
+    font-size: 22px;
+    color: #1ca1b5dc;
+    cursor: pointer;
+  }
+  
+  .tarjeta-resultado {
+    width: 80%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.631); 
+    border-radius: 20px;
+    text-align: justify;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  
+  .icono-meteorológico {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .información-meteorológica {
+    margin-top: 20px;
+    text-align: left;
+    display: none;
+  }
+  
+  .información-meteorológica p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: none;
+  }
+  
+  .información-meteorológica span {
+    margin-left: 10px;
+    display: none;
+  }
+  h2{
+    display: block;
+      font-size: 1.5em;
+      margin-block-start: 0.90em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      unicode-bidi: isolate;
+      text-align: center;
+  }
+  
